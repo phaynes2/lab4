@@ -10,10 +10,10 @@
     <form method="POST" action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php" >
       <fieldset>
       <legend> My Info  </legend>
-      <label> First Name: <input type="text" name="first_name_field"></label>
-      <label> Last  Name: <input type="text" name="last_name_field"></label>
-      <label> Phone Number: <input type="text" name="phone_field"></label>
-      <label> Email Address: <input type="text" name="email_field"></label>
+      <p><label> First Name: <input type="text" name="first_name_field"></label></p>
+      <p><label> Last  Name: <input type="text" name="last_name_field"></label></p>
+      <p><label> Phone Number: <input type="text" name="phone_field"></label></p>
+      <p><label> Email Address: <input type="text" name="email_field"></label></p>
       <p>
         <label> Gender:
           <input type="radio" name="gender_field" value="male">
@@ -46,10 +46,11 @@
         <label><input type="checkbox" name="avalible_field[]" value="Saturday">Saturday</label>
         <p></p>
         <p>Comments:</p>
-        <textarea>cols="45" rows="20" name="comments_field"</textarea>
+        <textarea name ="comments_field" cols="45" rows="20"></textarea>
       </fieldset>
+      <input type="hidden" name="hidden_field" value="phaynes2@hawk.iit.edu">
       <input type="submit" name="Submit">
-      
+
 	</form>
 </body>
 </html>
